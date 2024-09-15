@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  padding-top: 48px;
+  padding-bottom: 80px;
+  min-height: calc(100vh - 72px);
+}
+.header {
+  margin-bottom: 28px;
+}
+.heading {
+  font: 600 24px / 133% var(--font-family);
+  color: var(--main);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.price {
+  font: 600 24px / 133% var(--font-family);
+  color: var(--main);
+}
+
+.galleryContainer {
+  margin-bottom: 28px;
+}
+
+.description {
+  margin-bottom: 60px;
+  font: 400 16px / 150% var(--font-family);
+  color: var(--text);
+}
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}

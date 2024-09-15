@@ -1,17 +1,29 @@
+import styles from "./Navigation.module.css";
 import { NavLink } from "react-router-dom";
 
 export default function Navigation() {
   return (
     <nav>
-      <ul>
+      <ul className={styles.nav}>
         <li>
-          <NavLink to="/home">Home</NavLink>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? styles.navLink + " " + styles.active : styles.navLink
+            }
+          >
+            Home
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/catalog">Catalog</NavLink>
-        </li>
-        <li>
-          <NavLink to="/camper/:id">Camper</NavLink>
+          <NavLink
+            to="/catalog"
+            className={({ isActive }) =>
+              isActive ? styles.navLink + " " + styles.active : styles.navLink
+            }
+          >
+            Catalog
+          </NavLink>
         </li>
       </ul>
     </nav>

@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 24px;
+  gap: 32px;
+}
+.navLink {
+  font: 500 16px / 150% var(--font-family);
+  text-align: center;
+  color: var(--main);
+  text-decoration: none;
+}
+
+.active {
+  color: var(--button-hover);
+}

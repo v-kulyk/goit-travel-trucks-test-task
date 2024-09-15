@@ -1,0 +1,23 @@
+.container {
+  background: url("../../assets/images/hero.png") no-repeat;
+  background-size: cover;
+  height: calc(100vh - 73px);
+  width: 100%;
+  padding: 0 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font: 600 48px / 67% var(--font-family);
+  color: var(--inputs);
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+.subheading {
+  font: 600 24px / 133% var(--font-family);
+  color: var(--inputs);
+  margin: 0 0 40px 0;
+  padding: 0;
+}

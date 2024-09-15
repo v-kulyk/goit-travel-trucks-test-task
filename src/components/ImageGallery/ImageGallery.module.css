@@ -1,0 +1,10 @@
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  /* font: 400 16px / 150% var(--font-family);
+    color: var(--text);
+    height: 104px;
+    overflow: clip */
+}

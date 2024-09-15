@@ -1,0 +1,64 @@
+.container {
+  border: 1px solid var(--gray-light);
+  border-radius: 10px;
+  padding: 44px;
+}
+
+.heading {
+  font: 600 20px / 120% var(--font-family);
+  color: var(--main);
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+.subheading {
+  font: 400 16px / 150% var(--font-family);
+  color: var(--gray);
+  margin-bottom: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  justify-content: center;
+}
+
+.input,
+.textarea {
+  border-radius: 12px;
+  padding: 18px;
+  background: var(--inputs);
+  font: 400 16px / 150% var(--font-family);
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.textarea {
+  resize: none;
+  height: 118px;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--gray);
+}
+.error {
+  color: var(--button);
+}
+
+.button {
+  border-radius: 200px;
+  padding: 16px 60px;
+  font: 500 16px / 150% var(--font-family);
+  letter-spacing: -0.01em;
+  color: var(--white);
+  background: var(--button);
+  outline: none;
+  border: none;
+  display: block;
+  margin: 10px auto 0;
+  cursor: pointer;
+}
+.button::hover {
+  background: var(--button-hover);
+}

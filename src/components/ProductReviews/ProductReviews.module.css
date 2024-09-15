@@ -1,0 +1,35 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 16px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+.logo {
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+  background: var(--badges);
+  font: 600 24px / 133% var(--font-family);
+  color: var(--button);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font: 500 16px / 150% var(--font-family);
+  color: var(--main);
+  margin-bottom: 4px;
+}
+
+.comment {
+  font: 400 16px / 150% var(--font-family);
+  color: var(--text);
+}

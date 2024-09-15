@@ -1,0 +1,29 @@
+.container {
+  border-radius: 10px;
+  padding: 44px 52px;
+  background: var(--inputs);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading {
+  font: 600 20px / 120% var(--font-family);
+  color: var(--main);
+  border-bottom: 1px solid var(--gray-light);
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.specsList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.spec {
+  display: flex;
+  justify-content: space-between;
+  font: 500 16px / 150% var(--font-family);
+  color: var(--main);
+}

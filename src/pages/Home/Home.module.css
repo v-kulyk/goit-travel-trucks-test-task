@@ -8,6 +8,16 @@
   flex-direction: column;
   justify-content: center;
 }
+/* set different background image for retina screens */
+@media only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+  .container {
+    background: url("../../assets/images/hero-2x.png") no-repeat;
+    background-size: cover;
+  }
+}
 
 .heading {
   font: 600 48px / 67% var(--font-family);

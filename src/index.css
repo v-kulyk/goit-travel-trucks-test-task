@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf")
+    format("ttf");
+}
+:root {
+  --font-family: "Inter", sans-serif;
+  --main: #101828;
+  --text: #475467;
+  --white: #fff;
+  --inputs: #f7f7f7;
+  --badges: #f2f4f7;
+  --gray: #6c717b;
+  --gray-light: #dadde1;
+  --button: #e44848;
+  --button-hover: #d84343;
+  --rating: #ffc531;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  font: 500 16px / 150% var(--font-family);
+  letter-spacing: -0.01em;
+  color: var(--white);
+
+  border-radius: 200px;
+  padding: 16px 60px;
+  background: var(--button);
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background: var(--button-hover);
+}

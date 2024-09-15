@@ -1,0 +1,16 @@
+.image {
+  border-radius: 10px;
+  width: 292px;
+  min-width: 292px;
+  height: 320px;
+  position: relative;
+  overflow: clip;
+}
+.image > img {
+  height: 100%;
+  width: fit-content;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

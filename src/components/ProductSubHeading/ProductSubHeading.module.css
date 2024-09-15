@@ -1,0 +1,14 @@
+.subheading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  font: 400 16px / 150% var(--font-family);
+  color: var(--main);
+  margin-bottom: 16px;
+}
+.subheading span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
